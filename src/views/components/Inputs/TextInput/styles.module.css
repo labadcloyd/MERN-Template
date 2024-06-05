@@ -1,0 +1,31 @@
+.wrapper {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+	gap: var(--regular-pad);
+	background-color: var(--white);
+	border-radius: var(--large-pad);
+	padding: var(--tiny-pad) var(--tiny-pad) var(--tiny-pad) var(--large-pad);
+}
+.wrapper input {
+	width: 100%;
+	border: none;
+	background-color: transparent;
+	padding: var(--regular-pad) 0;
+	font-size: var(--regular-font);
+}
+
+.primary {
+	background-color: var(--green);
+	color: var(--white);
+}
+.outlined {
+	background-color: transparent;
+	color: var(--black);
+	border: 1px solid var(--light-gray);
+}
+.transparent {
+	background-color: transparent;
+	color: var(--black);
+}

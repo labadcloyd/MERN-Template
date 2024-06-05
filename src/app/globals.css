@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+
+:root {
+  --red: #EF7F5C;
+  --blue: #5c97ef;
+  --green: #99A06C;
+  --light-green: #B1BBB2;
+  --white: #ffffff;
+  --off-white: #F6F8FC;
+  --black: #434343;
+  --gray: #A8AAAE;
+  --light-gray: #eaebef;
+  --yellow: #EFC65C;
+  --light-brown: #DEA345;
+  --brown: #C18568;
+  --tan: #F6E2C1;
+
+  /* PADDING */
+  --tiny-pad: 4px;
+  --small-pad: 8px;
+  --regular-pad: 12px;
+  --medium-pad: 14px;
+  --large-pad: 16px;
+  --xlarge-pad: 18px;
+  --xxlarge-pad: 24px;
+  --xxxlarge-pad: 28px;
+  --huge-pad: 34px;
+  --xhuge-pad: 40px;
+  --xxhuge-pad: 52px;
+  --xxxhuge-pad: 64px;
+  --ginormous: 80px;
+  --xginormous: 120px;
+  --xxginormous: 160px;
+
+
+  /* FONT SIZES */
+  --tiny-font: 12px;
+  --small-font: 14px;
+  --regular-font: 16px;
+  --medium-font: 18px;
+  --large-font: 20px;
+  --xlarge-font: 24px;
+  --xxlarge-font: 28px;
+  --xxxlarge-font: 34px;
+  --huge-font: 40px;
+  --xhuge-font: 48px;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  color: var(--black);
+}
+
+h1 {
+  font-size: 64px;
+  font-weight: 500;
+  line-height: 1.5;
+}
+h2 {
+  font-size: 48px;
+  font-weight: 500;
+  line-height: 1.5;
+}
+h3 {
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 1.5;
+}
+h4 {
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 1.5;
+}
+h5 {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 1.5;
+}
+h6 {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.5;
+}
+p {
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.5;
+}
+span {
+  font-size: 16px;
+  font-weight: 300;
+}
+
+html,
+body { 
+  background-color: var(--off-white);
+}
+ 
+main {
+  padding: 59px 0 0 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+a {
+  color: var(--greent);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+textarea:focus, input:focus{
+  outline: none;
+}

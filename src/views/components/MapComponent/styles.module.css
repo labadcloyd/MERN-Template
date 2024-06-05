@@ -1,0 +1,23 @@
+.marker {
+	display: flex;
+	align-items: flex-end;
+}
+.marker svg path{  
+	fill: var(--black);
+	stroke: var(--white);
+	stroke-width: 1px;
+}  
+.point {
+	width: 20px;
+	height: 20px;
+	background-color: #EF7F5C70;
+	border-radius: 50px;
+	border: 1px solid black;
+}
+.popup {
+  background: white;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}

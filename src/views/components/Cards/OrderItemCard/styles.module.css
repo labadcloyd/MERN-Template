@@ -1,0 +1,97 @@
+.wrapper {
+	display: grid; 
+	grid-template-columns: 150px 1fr 120px;
+	gap: var(--large-pad);
+	width: 100%;
+}
+.imgWrapper {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: var(--white);
+	border-radius: var(--regular-pad);
+	padding: var(--regular-pad);
+	border: 1px solid var(--light-gray); 
+	width: 100%; 
+	min-height: 150px;
+	max-height: 150px;
+}
+.imgWrapper img{
+	object-fit: contain;
+	width: 100%;
+}
+.imgWrapper svg path {
+	stroke: var(--gray);
+}
+.colWrapper {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.rowContainer > button{
+	color: var(--red);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: var(--small-pad);
+	padding: 0;
+}
+.colWrapper h4 {
+	text-align: right;
+}
+
+.itemNameWrapper {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	padding: var(--small-pad) 0;
+}
+.itemNameWrapper p {
+	color: var(--gray);
+}
+.rowContainer {
+	display: flex;
+	gap: var(--regular-pad);
+}
+.rowContainer div {
+	max-width: 150px;
+}
+.rowContainer a {
+	color: var(--green);
+}
+.colWrapper {
+	display: flex;
+	flex-direction: column;
+	gap: var(--tiny-pad);
+}
+
+
+.reviewWrapper {
+	display: flex;
+	flex-direction: column;
+	margin-top: var(--large-pad);
+	padding: var(--large-pad);
+	border-radius: var(--regular-pad);
+	border: 1px solid var(--light-gray);
+	gap: var(--large-pad);
+}
+.reviewContainer {
+	display: flex;
+	flex-direction: column;
+	gap: var(--small-pad);
+}
+.reviewContainer p {
+	font-weight: 500;
+	color: var(--black);
+}
+.reviewContainer > textarea {
+	border-radius: var(--small-pad);
+	max-width: 300px;
+}
+.reviewContainerRow {
+	display: flex;
+	gap: var(--large-pad);
+}
+.reviewContainerRow button {
+	width: 100%;
+}

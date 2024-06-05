@@ -1,0 +1,55 @@
+.primary {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+	padding: var(--small-pad) var(--large-pad);
+	border-radius: var(--small-pad);
+
+	background-color: var(--white);
+	transition: .3s;
+}
+.outlined {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+	transition: .3s;
+}
+
+.primary button {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	max-width: var(--huge-pad);
+	max-height: var(--huge-pad);
+	height: 100%;
+	width: 100%;
+	border: none;
+	cursor: pointer;
+	font-size: var(--xxxlarge-font);
+	text-align: center;
+	background-color: transparent;
+	transition: .3s;
+}
+
+.outlined button {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	max-width: var(--xhuge-pad);
+	max-height: var(--xhuge-pad);
+	padding: var(--tiny-pad);
+	height: 100%;
+	width: 100%;
+	border: 1px solid var(--light-gray);
+	border-radius: var(--small-pad);
+	cursor: pointer;
+	font-size: var(--xxxlarge-font);
+	text-align: center;
+	background-color: var(--white);
+	transition: .3s;
+}
+.wrapper button:hover {
+	scale: 1.1;
+}

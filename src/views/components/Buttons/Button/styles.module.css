@@ -1,0 +1,36 @@
+.wrapper {
+	padding: var(--small-pad) var(--large-pad);
+	border: none;
+	font-size: var(--regular-font);
+
+	border-radius: var(--small-pad);
+	background-color: var(--green);
+	color: var(--white);
+	cursor: pointer;
+	transition: .3s;
+}
+.wrapper:hover {
+	scale: 1.05;
+}
+
+.primary {
+	background-color: var(--green);
+	color: var(--white);
+}
+.outlined {
+	background-color: transparent;
+	color: var(--black);
+	border: 1px solid var(--light-gray);
+}
+.transparent {
+	background-color: transparent;
+	color: var(--black);
+}
+.disabled {
+	background-color: var(--gray);
+	transform: none;
+	cursor: not-allowed;
+}
+.disabled:hover {
+	scale: 1;
+}

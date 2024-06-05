@@ -1,0 +1,45 @@
+.wrapper {
+	position: relative;
+	display: flex;
+
+}
+.valueWrapper {
+	border: 1px solid var(--light-gray);
+	padding: var(--tiny-pad) var(--huge-pad) var(--tiny-pad) var(--xxxlarge-pad);
+	cursor: pointer;
+	border-radius: var(--small-pad);
+}
+.arrowContainer {
+	position: absolute;
+	right: 10px;
+	top: 50%;
+	transform: translateY(-50%);
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.optionsWrapper {
+	z-index: 1;
+	position: absolute;
+	background-color: var(--white);
+	right: 0;
+	top: 100%;
+	border: 1px solid var(--light-gray);
+	padding: var(--regular-pad) var(--large-pad);
+	cursor: pointer;
+	border-radius: var(--small-pad);
+
+	display: flex;
+	flex-direction: column;
+	gap: var(--small-pad);
+}
+.optionContainer {
+	border-bottom: 1px solid var(--light-gray);
+	padding-bottom: var(--small-pad);
+	transition: .3s;
+}
+.optionContainer:hover {
+	color: var(--green);
+}

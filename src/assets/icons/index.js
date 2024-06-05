@@ -1,0 +1,16 @@
+export { default as CartIcon } from "./Cart";
+export { default as SearchIcon } from "./Search";
+export { default as SelectIcon } from "./Select";
+export { default as WalletIcon } from "./Wallet";
+export { default as PackageIcon } from "./Package";
+export { default as StarIcon } from "./Star";
+export { default as MinusIcon } from "./Minus";
+export { default as PlusIcon } from "./Plus";
+export { default as TrashIcon } from "./Trash";
+export { default as StoreIcon } from "./Store";
+export { default as TruckIcon } from "./Truck";
+export { default as ImageIcon } from "./Image";
+export { default as ArrowLeftIcon } from "./ArrowLeft";
+export { default as ArrowRightIcon } from "./ArrowRight";
+export { default as ArrowDownIcon } from "./ArrowDown";
+export { default as PinIcon } from "./Pin";

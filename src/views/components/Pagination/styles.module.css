@@ -1,0 +1,22 @@
+.wrapper {
+	display: flex;
+	align-items: center;
+	gap: var(--xxlarge-pad);
+}
+.wrapper button {
+	padding: 0;
+	height: 40px;
+	width: 40px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.wrapper p {
+	font-weight: 500;
+	cursor: pointer;
+	color: var(--gray);
+}
+.active {
+	color: var(--green) !important;
+	text-decoration: underline;
+}

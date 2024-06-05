@@ -1,0 +1,30 @@
+.wrapper {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+	gap: var(--regular-pad);
+	background-color: var(--white);
+	border-radius: var(--large-pad);
+	padding: var(--tiny-pad) var(--tiny-pad) var(--tiny-pad) var(--xxlarge-pad);
+}
+.wrapper input {
+	width: 100%;
+	border: none;
+	background-color: transparent;
+	padding: var(--regular-pad) 0;
+	font-size: var(--regular-font);
+}
+.iconWrapper  {
+	background-color: var(--green);
+	padding: var(--small-pad) var(--regular-pad);
+	border-radius: var(--regular-pad);
+	cursor: pointer;
+	transition: .3s;
+}
+.iconWrapper:hover {
+	scale: 1.05;
+}
+.iconWrapper > svg path{
+	stroke: var(--white) !important;
+}
